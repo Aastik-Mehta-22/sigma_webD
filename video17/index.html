@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        /* Element Selector */
+        /* div{
+            background-color: red;
+        } */
+      
+
+        .red{
+            background-color: red;
+        }
+        #green{
+            background-color: green;
+        }
+
+        /* iska matlab h direct ho to hoga   */
+        /* div > p{ 
+            background-color: blue;
+            color: brown;
+        } */
+
+        div p{
+            color: green;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        a:visited{
+            color: yellow;
+        }
+
+        a:link{
+            color: green;
+        }
+
+        a:active{
+            background-color: red;
+        }
+
+        a:hover{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="red" >
+        I am a div
+        <p>hi i am a a parar inside the div </p>
+    </div>
+
+    <div id="green">
+        i am another div
+    </div>
+    <a href="https://google.com"> go to googgle </a>
+    <a href="https://google123.com"> go to googgle </a>
+</body>
+</html>
