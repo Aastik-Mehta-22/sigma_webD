@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root{
+            --color: blue;
+            --seccolor: rgb(144, 144, 251);
+        }
+        .container{
+            background-color: var(--color);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+
+        <div class="container">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, eveniet debitis odio eos corrupti voluptates eaque ut, officiis saepe itaque sunt in veniam ipsa, fuga ipsum velit totam accusantium minus! Aut assumenda, exercitationem sequi veritatis quia, corrupti quos dolores rem, tempora necessitatibus vero voluptate quo?
+        </div>
+    </div>
+</body>
+</html>
