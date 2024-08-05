@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            background-color: aqua;
+            position: sticky;
+            top: 0px;
+            top: 0px;
+        }
+        .box2{
+            background-color: azure;
+            position: relative;
+            top: 25px;
+        }
+        .box3{
+            background-color: antiquewhite;
+            position: fixed;
+        }   
+        .box4{
+            background-color: purple;
+        }
+        .box{
+            height: 133px;
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+            border: 2px solid black;
+
+        }
+        .parent{
+            /* transform, filter and perspective property can also makee feel an element positioned  */
+            padding: 43px;
+            margin: 34px;
+            border: 3px solid purple;
+            position: absolute;
+        }
+    </style>
+</head>
+<body style="background-color: grey;">
+
+    <div class="parent">
+
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+    <!--
+        By default position is static 
+        Absoulte position lg gyi to ye pta krega ki mughe kiske prati lgani h absolute 
+        abosoulte position lgta h nearest positioned ancestor ki equal 
+
+        position fixed means chahe kitna bhi scrool krlo elemment utna hi rhega 
+
+        position sticky we use mostly i nnavbar while we scroll page it will remain sticked on top
+    -->
+
+</body>
+</html>
